@@ -1,5 +1,7 @@
 - name: Install avi role and run a task
   hosts: localhost
+  gather_facts: false
 
   roles:
     - avi_modules
+    - avi_networks
