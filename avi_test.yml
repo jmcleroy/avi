@@ -1,0 +1,5 @@
+- name: Install avi role and run a task
+  hosts: localhost
+
+  roles:
+    - avi_modules
